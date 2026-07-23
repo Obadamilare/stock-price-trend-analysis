@@ -70,6 +70,6 @@ To upgrade this model into an enterprise grade Quantitative Finance tool, the fo
 
 
 ## Author
-
-**Adekogbon Obadamilare Testimony (Wīsdøm)**
-*Undergraduate Student in Mathematics | Student Tutor & Aspiring Quantitative Analyst*
+**Adekogbon Obadamilare Testimony (Wīsdøm)**<br>
+* *Undergraduate Student in Mathematics. Analyst at The Investment Society, UNILORIN.*
+* *Student Tutor & Aspiring Quantitative Analyst.*
