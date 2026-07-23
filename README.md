@@ -16,18 +16,19 @@ This project simulates core logic behind modern financial platforms (such as Bam
 - **Structured Logic:** Implement clean conditional evaluation using standard Python operators (Arithmetic, Comparison, and Logical operators).
 
 
-##  Mathematical & Quantitative Foundation
+## Mathematical Foundation
 
-As a Mathematics student and Quantitative Analyst in training, I approach financial problems by translating market behaviors into structured mathematical logic:
+The project implements basic arithmetic and logical conditions to track stock performance:
 
-1. **Price Delta ($\Delta P$):**
-   $$\Delta P = P_{\text{current}} - P_{\text{previous}}$$
+1. **Price Increase ($\Delta P$):**
+   $$\Delta P = \text{Current Market Price} - \text{Opening Price}$$
 
-2. **Percentage Return ($R$):**
-   $$R = \left( \frac{P_{\text{current}} - P_{\text{previous}}}{P_{\text{previous}}} \right) \times 100$$
+2. **Total Investment Value ($V$):**
+   $$V = \text{Current Market Price} \times \text{Number of Shares Owned}$$
 
-3. **Trend Classification Logic:**
-   $$\text{Trend} = \begin{cases} \text{Bullish (Upward)}, & \text{if } \Delta P > 0 \\ \text{Bearish (Downward)}, & \text{if } \Delta P < 0 \\ \text{Neutral}, & \text{if } \Delta P = 0 \end{cases}$$
+3. **Condition Evaluation:**
+   $$\text{Target Reached} = \text{Updated Market Price} \ge \text{Target Price}$$
+   $$\text{Strong Investment} = \text{Market Open} \land \text{Target Reached}$$
 
 
 ## Tech Stack & Tools
